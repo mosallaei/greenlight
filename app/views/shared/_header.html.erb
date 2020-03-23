@@ -80,11 +80,11 @@
               <a class="dropdown-item" href="https://help.lyncap.ir" target="_blank" rel="noopener">
                 <i class="dropdown-icon far fa-question-circle"></i> <%= t("header.dropdown.help") %>
               </a>
-              <% if Rails.configuration.report_issue_url.present? %>
-                <a class="dropdown-item" href="<%= Rails.configuration.report_issue_url %>" target="_blank" rel="noopener">
-                  <i class="dropdown-icon fas fa-exclamation mr-3"></i><%= t("errors.internal.report") %>
-                </a>
-              <% end %>
+              <%# if Rails.configuration.report_issue_url.present? %>
+<!--                <a class="dropdown-item" href="<%#= Rails.configuration.report_issue_url %>" target="_blank" rel="noopener">-->
+<!--                  <i class="dropdown-icon fas fa-exclamation mr-3"></i><%#= t("errors.internal.report") %>-->
+<!--                </a>-->
+              <%# end %>
               <%= link_to logout_path, class: "dropdown-item" do %>
                 <i class="dropdown-icon fas fa-sign-out-alt"></i> <%= t("header.dropdown.signout") %>
               <% end %>
