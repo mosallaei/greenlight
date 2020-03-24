@@ -130,7 +130,7 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://mabnallc.com/fileadmin/user_upload/L300.png"
+    config.branding_image_default = "https://lyncap.ir/public/assets/logos/logo_detail.svg"
 
     # Default primary color if the user does not specify one
     config.primary_color_default = "#798185"
