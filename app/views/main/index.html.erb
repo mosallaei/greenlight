@@ -19,20 +19,14 @@
       <div class="col-md-12 col-sm-12 text-center">
 
 
-        <%= image_tag("lyncap.svg", style: 'width: 1000px;  display: block; margin-left: auto; margin-right: auto;') %>
+        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+
+        <%= image_tag("lyncap.svg", style: 'width: 1200px;  display: block; margin-left: auto; margin-right: auto;') %>
 
           <br>
-
-          <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-          <br>
-
           <br>
           <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://mabnallc.com/", target: "_blank", rel: "noopener")).html_safe %></p>
           <br>
-          <br>
-          <br>
-          <br>
-
 
           <%#= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
           <!--          <h4><%#= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>-->
